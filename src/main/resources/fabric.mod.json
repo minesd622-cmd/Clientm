@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "dragonslayer",
+  "version": "${version}",
+  "name": "Dragon Slayer Mod",
+  "description": "A high-performance client-like mod for Dragon Slaying.",
+  "authors": ["Modder"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/dragonslayer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.dragonslayer.DragonSlayerMod"],
+    "client": ["com.dragonslayer.client.DragonSlayerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.2",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
